@@ -8,7 +8,7 @@ export const server: express.Express = express()
 
     //Cors
         import cors from 'cors'
-        server.use(cors({origin: "http://localhost:8080"}))
+        server.use(cors({origin: "https://frontend-binary-devs.vercel.app"}))
 
 
 //Routes
